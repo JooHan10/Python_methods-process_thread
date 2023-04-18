@@ -38,18 +38,18 @@
 #####################################
 
 #####################################
-# from multiprocessing import Process
-# import os
+from multiprocessing import Process
+import os
 
-# def I():
-#     print('This is I')
-# def Joo():
-#     print('This is Joo')
-# def Han():
-#     print('This is Han')
+def I():
+    print('This is I')
+def Joo():
+    print('This is Joo')
+def Han():
+    print('This is Han')
 
-# if __name__ == '__main__':
-#     child1 = Process(target=I).start()
-#     child2 = Process(target=Joo).start()
-#     child3 = Process(target=Han).start()
+if __name__ == '__main__':
+    child1 = Process(target=I).start()
+    child2 = Process(target=Joo).start()
+    child3 = Process(target=Han).start()
 #####################################
